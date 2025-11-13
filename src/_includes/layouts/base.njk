@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Home Page</title>
+    <title>{{ title }}</title>
   </head>
   <body>
     <main>
-      <p>Welcome to the homepage!</p>
-
+      {{ content | safe }}
     </main>
   </body>
 </html>
